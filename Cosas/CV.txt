@@ -1,0 +1,510 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage{paracol}
+\usepackage{verbatim}
+
+\ifxetexorluatex
+  \setmainfont{Lato}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Weimar Alexander \newline Torres Herrera}
+\tagline{Egresado en Ingeniería de Sistemas Computacionales y Estudiante de Física}
+\photoR{2.8cm}{Image}
+\personalinfo{
+  \email{weimar.torres.herrera@gmail.com}
+  \phone{+591-64313309}
+  \location{La Paz, BOLIVIA}
+  \mailaddress{Alto Miraflores, Manuel Escobar \#980, 00000 Bolivia}
+  \linkedin{linkedin.com/in/weimar-alexander-torres-herrera-8558b6140}
+  \github{github.com/weimar-torres-herrera | gitlab.com/weimar.torres.herrera}
+}
+
+\makecvheader
+
+\columnratio{0.5}
+
+\begin{paracol}{1}
+
+\cvsection{Resumen}
+
+Soy un desarrollador web full stack con experiencia desarrollando software comercial, puedo desarrollar en JavaScript y TypeScript.
+
+Tengo una gran capacidad para buscar posibles mejoras en el proceso y proyecto en el que estoy trabajando. Y aunque no me considero perfeccionista, siempre busco la perfección en los proyectos porque me siento muy feliz cuando están funcionando sin ningún problema, de la manera más óptima y amigable.
+
+Soy bueno trabajando en equipo porque cuando tengo la oportunidad de ayudar siempre estoy disponible y feliz de hacerlo.
+
+Cuando me encuentro con un problema, no soy de las personas que se conforma con solo resolverlo, en cambio investigo el motivo del problema y busco formas de evitar posibles problemas para el equipo en el futuro.
+
+Me gusta encontrar y aprender a utilizar herramientas para el desarrollo de proyectos.
+
+Por último, me considero una persona amable, responsable, dedicada y con muchas ganas de aprender.
+
+\cvsection{Experiencia}
+
+\cvevent{Desarrolladores - Operaciones, Squad Credinet Web (Desarrollador Web Full Stack)}{Banco de Crédito de Bolivia (bcp.com.bo)}{Noviembre 2025 - En curso}{La Paz, BOLIVIA}
+
+\begin{itemize}
+
+\item \textbf{Onboarding Credinet - Desarrollador Web Full Stack} 
+
+(.NET 8, C\#, Angular.js, Node.js, JavaScript, SQL Server, Azure)
+
+Una aplicación web diseñada para la afiliacion de nuevos clientes (Empresas) a la aplicacion Credinet.
+
+Con la aplicación se puede registrar datos de la empresa, subir documentación, aprobar y hacer seguimiento a las afiliaciones que se van registrando.
+
+\item \textbf{Credinet Movil - Desarrollador Backend}
+
+(.NET 8, C\#, SQL Server, Azure)
+
+Servicios API para una aplicacion movil que permite preparar, autorizar y rechazar transacciones monetarias.
+
+Permite hacer pagos y cobros QR, pagos a cuentas propias, cuentas de terceros y pago a una billetera movil.
+
+\end{itemize}
+
+\cvevent{Ingeniero de desarrollo (Desarrollador Web Full Stack)}{Jalasoft (jalasoft.com)}{Mayo 2021 -- Septiembre 2024}{La Paz - Tarija, BOLIVIA (Remoto)}
+
+\begin{itemize}
+
+\item \textbf{CoverIT ServiceHub, CloudCover - Desarrollador Web Full Stack} 
+
+(React.js, Node.js, JavaScript, SQL, PostgreSQL, Azure, Docker)
+
+Una aplicación web diseñada para el mantenimiento de OEM y TPM.
+
+Con la aplicación se puede ver y administrar todos los proveedores y tipos de tickets, enviar y recibir actualizaciones automáticas.
+
+\item \textbf{Ponctuel, Jalasoft - Desarrollador Web Full Stack}
+
+(React.js, Node.js, Express, TypeScript, MongoDB, Docker, GitLab)
+
+Una aplicación web para gestionar, controlar la asistencia y permite registrar la ubicación cuando se trabaja de forma remota.
+
+Muestra su reporte de horas, exporta datos de usuarios para un grupo o individuo, también proporciona un mapa para ver la ubicación de sus colaboradores.
+
+\item \textbf{Speakeasy Live, Genghis Technologies - Desarrollador Web Backend}
+
+(Node.js, Express, JavaScript, Mocha, MongoDB, Firebase, Agora, AWS, Docker, GitHub, Jira)
+
+Una aplicación móvil y web que se utiliza para crear podcasts y compartir imágenes y videos.
+
+Esta aplicación está enfocada en la educación y te ayuda a aprender y ganar dinero creando, mirando y compartiendo podcasts de video y audio con personas de todo el mundo.
+
+\item \textbf{Traveler, Jalasoft - Desarrollador Web Full Stack}
+
+(Angular, Node.js, Express, JavaScript, MongoDB, Firebase, Docker, GitLab, Trello)
+
+Una aplicación web que sirve como guía turística para las personas que visitan las ubicaciones que se detallan en la aplicación.
+
+\item \textbf{Overlord, Jalasoft - Desarrollador Web Full Stack}
+
+(Angular, Node.js, Express, TypeScript, Jest, MongoDB, Firebase, OpenVidu, Docker, GitLab, Jira)
+
+Una aplicación web que sirve para la comunicación entre colaboradores, pueden participar tanto en llamadas como en chats grupales.
+
+\end{itemize}
+
+\cvevent{Ingeniero de desarrollo (Desarrollador Web Full Stack)}{Northwest Consulting (nwc.com.bo)}{Enero 2023 -- Septiembre 2024}{La Paz - Tarija, BOLIVIA (Remoto)}
+
+\begin{itemize}
+
+\item \textbf{Consola NWC, Northwest Consulting - Desarrollador Web Full Stack}
+
+(Angular, NestJS, Typescript, SQL, PostgreSQL, AWS, Docker, GitLab)
+
+Una aplicación web que sirve para la administración y generación de cotizaciones automáticas para el servicio de generación de facturas SIFAC.
+
+\item \textbf{BayDo, Northwest Consulting - Desarrollador Web Full Stack} 
+
+(Flutter, PHP, GitHub)
+
+Una aplicación móvil que permite gestionar el sistema de pedidos de un restaurante.
+
+\end{itemize}
+
+\end{paracol}
+
+\cvsection{Educación}
+
+\begin{paracol}{2}
+
+\cvevent{Ingeniería de Sistemas Computacionales}{Facultad de Ingeniería y Arquitectura, Universidad Privada Boliviana}{2017 -- En curso}{La Paz, BOLIVIA}
+
+\begin{itemize}
+\item Promedio de calificaciones : 89.78
+\item Puntuación del TOEFL : 66
+\item Actualmente estudiando en el semestre 9
+\end{itemize}
+
+\divider
+
+\cvevent{Bachiller en Humanidades}{Colegio La Salle}{2011 -- 2016}{Tarija, BOLIVIA}
+
+\begin{itemize}
+\item Promedio anual : 93
+\end{itemize}
+
+\switchcolumn
+
+\cvevent{Licenciatura en Física}{Facultad de Ciencias Puras y Naturales, Universidad Mayor de San Andrés}{2017 -- En curso}{La Paz, BOLIVIA}
+
+\begin{itemize}
+\item Promedio de calificaciones : 75.3
+\item Actualmente estudiando en el semestre 4
+\end{itemize}
+
+\divider
+
+\cvevent{Escuela primaria}{Unidad Educativa Evangélica Bautista Tarija}{2005 -- 2010}{Tarija, BOLIVIA}
+
+\end{paracol}
+
+\cvsection{Cursos de formación y talleres}
+
+\begin{paracol}{2}
+
+\cvevent{Angular: De cero a experto (Curso)}{Fernando Herrera}{Enero 2023 -- En curso}{UDEMY}
+
+\cvevent{React: De cero a experto (Hooks y MERN) (Curso)}{Fernando Herrera}{Enero 2023 -- En curso}{UDEMY}
+
+\cvevent{Nest: Desarrollo backend escalable con Node (Curso)}{Fernando Herrera}{Enero 2023 -- En curso}{UDEMY}
+
+\cvevent{Seguridad de aplicaciones para desarrolladores y profesionales de DevOps (Curso)}{IBM}{Octubre 2023}{COURSERA}
+
+\switchcolumn
+
+\cvevent{Desarrollo Full Stack (Bootcamp)}{La Paz, BOLIVIA}{Febrero - Mayo 2021}{JALASOFT}
+
+\cvevent{Flutter: Tu guía de desarrollo completa para iOS y Android (Curso)}{Fernando Herrera}{Junio - Agosto 2020}{UDEMY}
+
+\cvevent{Control de versiones con Git (Curso)}{Atlassian}{Julio - Agosto 2020}{COURSERA}
+
+\cvevent{Soporte de Tecnología de la información de Google (Curso)}{Grow with Google}{Julio - Agosto 2020}{COURSERA}
+
+\begin{comment}
+
+\divider
+
+\cvevent{XXIX - XXX - XXXI Reunión Nacional de la Sociedad Boliviana de Física (Talleres)}{Sociedad Boliviana de Física}{2017 - 2018 - 2019}{BOLIVIA}
+
+\newpage
+
+\switchcolumn
+
+\cvevent{Mirando el mundo desde los ojos de un científico social (Taller)}{Clubes de ciencia - Bolivia}{4-8 Enero 2019}{Santa Cruz, BOLIVIA}
+
+\divider
+
+\cvevent{Complex Networks and Synchronization of Physics to Biology and Social Systems (Course)}{Physical Research Institute}{19-22 November 2018}{La Paz, BOLIVIA}
+
+\divider
+
+\cvevent{XXX National Meeting of the Bolivian Society of Physics (Workshops)}{Bolivian Society of Physics}{8-9 November 2018}{Potosí, BOLIVIA}
+
+\divider
+
+\cvevent{Conference on Nuclear Science}{Bolivian Society of Physics \& Bolivian Nuclear Energy Agency}{5-7 November 2018}{Potosí, BOLIVIA}
+
+\divider
+
+\cvevent{Observational Astronomy (Workshop Course)}{Institute of Astronomy at UNAM \& Planetary Max Schreier}{2-8 August 2018}{La Paz, BOLIVIA}
+
+\divider
+
+\cvevent{Precision Cosmology (Workshop)}{Planetary Max Schreier}{30 July 2018}{La Paz, BOLIVIA}
+
+\divider
+
+\cvevent{Space Technology in Bolivia (Workshops)}{Institute of Applied Electronics \& IEEE Student Branch UPB La Paz}{8-10 March 2018}{La Paz, BOLIVIA}
+
+\divider
+
+\cvevent{Ampliando nuestro sistema sensorial con tecnología (Taller)}{Clubes de ciencia - Bolivia}{4-8 Enero 2018}{Santa Cruz, BOLIVIA}
+
+\switchcolumn
+
+\cvevent{XXIX National Meeting of the Bolivian Society of Physics (Workshops)}{Bolivian Society of Physics}{9-11 November 2017}{Cochabamba, BOLIVIA}
+
+\divider
+
+\cvevent{Nuclear Technologies for Scientific and Technological Development (Master Conference)}{Russian National Nuclear Research University}{4 April 2017}{La Paz, BOLIVIA}
+
+\divider
+
+\cvevent{Arduino Day (Taller)}{Universidad Mayor de San Andrés}{1 Abril 2017}{La Paz, BOLIVIA}
+
+\divider
+
+\cvevent{English (Curso)}{Instituto Educational Training Center}{2012 -- 2015}{Tarija, BOLIVIA}
+
+\end{comment}
+
+\end{paracol}
+
+\begin{comment}
+    
+\cvsection{Proyectos}
+
+\begin{paracol}{2}
+
+\cvevent{Aplicación CoverIT ServiceHub (Proyecto CloudCover)}{React.js, Node.js, JavaScript, SQL, PostgreSQL, Azure, Docker}{2024}{La Paz -- Tarija, BOLIVIA (Remoto)}
+Una aplicación web diseñada para el mantenimiento de OEM y TPM
+
+\divider
+
+\cvevent{Aplicación Ponctuel (Proyecto Jalasoft)}{React.js, Node.js, Express, TypeScript, MongoDB, Docker, GitLab}{2023 -- 2024}{La Paz -- Tarija, BOLIVIA (Remoto)}
+Una aplicación web para gestionar y controlar la asistencia
+
+\divider
+
+\cvevent{Aplicación Speakeasy Live (Proyecto Genghis Technologies)}{Node.js, Express, JavaScript, Mocha, MongoDB, Firebase, Agora, AWS, Docker, GitHub, Jira}{2022 -- 2023}{La Paz -- Tarija, BOLIVIA (Remoto)}
+Una aplicación para hacer podcasts y compartir imágenes y vídeos
+
+\divider
+
+\cvevent{Aplicación Traveler (Proyecto Jalasoft)}{Angular, Node.js, Express, JavaScript, MongoDB, Firebase, Docker, GitLab, Trello}{2022}{La Paz -- Tarija, BOLIVIA (Remoto)}
+Una aplicación que simula un guía turístico para turistas
+
+\divider
+
+\cvevent{Aplicación Overlord (Proyecto Jalasoft)}{Angular, Node.js, Express, TypeScript, Jest, MongoDB, Firebase, OpenVidu, Docker, GitLab, Jira}{2021}{La Paz -- Tarija, BOLIVIA (Remoto)}
+Una aplicación que sirve para la comunicación entre colaboradores
+
+\switchcolumn
+
+\cvevent{Aplicación Consola NWC (Proyecto Northwest Consulting)}{Angular, NestJS, Typescript, SQL, PostgreSQL, AWS, Docker, GitLab}{2023 -- 2024}{La Paz -- Tarija, BOLIVIA (Remoto)}
+Una aplicación que sirve para la administración y generación de cotizaciones
+
+\divider
+
+\cvevent{Aplicación BayDo (Proyecto Northwest Consulting)}{Flutter, PHP, GitHub}{2023}{La Paz, BOLIVIA (Remoto)}
+Una aplicación móvil que permite gestionar el sistema de pedidos de un restaurante
+
+\divider
+
+\cvevent{Aplicación AppBasc}{Flutter, Dart, Firebase, Docker, GitHub}{2020}{Tarija, BOLIVIA}
+Una aplicación móvil para la administración de campañas ABASC
+
+\divider
+
+\cvevent{Página web Moving Average Analyzer}{Python, Dash, GitHub}{2020}{Tarija, BOLIVIA}
+Un analizador de ganancias para el trading algorítmico con el algoritmo de promedios móviles
+
+\divider
+
+\cvevent{Página web SEUPB Elections}{PHP, HTML, CSS, GitHub}{2020}{Tarija, BOLIVIA}
+Sistema de elecciones para el concurso de fotografía de la UPB
+
+\divider
+
+\cvevent{Página web ElecClean}{AWS, Python, HTML, CSS, JavaScript, GitHub}{2020}{Tarija, BOLIVIA}
+Un sistema para la difusión y análisis de las elecciones
+
+\switchcolumn
+
+\newpage
+
+\cvevent{Página web Siinader}{JavaScript, Flutter, NodeJS, MySQL, Express, Swagger, GitHub}{2019}{La Paz, BOLIVIA}
+Una página web para la gestión del sistema académico de la carrera de Derecho de la Universidad Pública de El Alto
+
+\divider
+
+\cvevent{Numerical Methods Program}{Java, Java-Swing, GitHub}{2019}{La Paz, BOLIVIA}
+A program for windows that solves mathematical problems through mathematical methods
+
+\cvevent{Aplicación AndroidLatte Cafeteria}{Android, XML, Java, MySQL, GitHub}{2018}{La Paz, BOLIVIA}
+Una aplicación android para la organización y compra de productos de la cafetería de la UPB
+
+\switchcolumn
+
+\newpage
+
+\cvevent{Aplicación de Juego Tower Defense}{Java, GitHub}{2017}{La Paz, BOLIVIA}
+Un juego de defensa de torres para teléfonos Android con el uso de la biblioteca "UPBGame"
+
+\divider
+
+\cvevent{Aplicación de Juego Chess}{Java, GitHub}{2017}{La Paz, BOLIVIA}
+Un juego de ajedrez para teléfonos Android con el uso de la biblioteca "UPBGame"
+
+\end{paracol}
+
+\end{comment}
+
+\begin{paracol}{2}
+
+\cvsection{Mi filosofía de vida}
+
+\begin{quote}
+``El conocimiento es poder''\\
+Aprender cosas nuevas nos permite crecer como seres humanos y nos hace más preparados para adaptarnos al entorno. El conocimiento nos hace personas sabias.
+\end{quote}
+
+\cvsection{Más orgulloso de}
+
+\cvachievement{\faTrophy}{Finalista de la OIbF en 2015 y 2016}{Septiembre 2015/2016.
+Representando al país de Bolivia con un total de 50 estudiantes de países de habla hispana}
+
+\divider
+
+\cvachievement{\faHeartbeat}{Bachiller de Excelencia}{Por obtener el mejor rendimiento educativo de la unidad educativa}
+
+\divider
+
+\cvachievement{\faHeartbeat}{Olimpiada Científica Estudiantil Plurinacional Boliviana - Física}{\begin{itemize}
+\item 2016 Medalla de oro departamental
+\item 2015 Medalla nacional de bronce
+\item 2014 Medalla de plata nacional
+\item 2013 Mención honorífica nacional
+\end{itemize}}
+
+\divider
+
+\cvachievement{\faTrophy}{Beca olímpica}{Conseguí la beca olímpica (100\%)}
+
+\begin{comment}
+
+\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+\wheelchart{1.5cm}{0.5cm}{
+  6/3em/accent!30/Sleep,
+  8/3em/accent!40/Lessons,
+  5/3em/accent!60/Homework,
+  5/9em/accent/Spending time with family and relaxation
+}
+
+\end{comment}
+
+\begin{comment}
+
+% use ONLY \newpage if you want to force a page break for
+% ONLY the current column
+\newpage
+
+\cvsection{Publications}
+
+\nocite{*}
+
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}},type=article]
+
+\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+%% Switch to the right column. This will now automatically move to the second
+%% page if the content is too long.
+\switchcolumn
+
+\end{comment}
+
+\switchcolumn
+
+\cvsection{Perfil de habilidades}
+
+\smallskip
+
+\cvtag{Trabajador}
+\cvtag{Líder}
+\cvtag{Pensamiento crítico}\\
+\cvtag{Trabajo en equipo}
+\cvtag{Metodología ágil}
+\cvtag{Multitarea}
+
+\smallskip
+\smallskip
+
+\divider
+
+\smallskip
+
+\cvskill{Angular}{3}
+\cvskill{React.js}{2}
+\cvskill{NestJS}{3}
+\cvskill{Express}{3}
+
+\cvskill{JavaScript}{3}
+\cvskill{TypeScript}{3}
+\cvskill{Java}{2}
+\cvskill{SQL}{2}
+
+\cvskill{NodeJs}{3}
+
+\cvskill{PostgreSQL}{2}
+\cvskill{MySQL}{2}
+\cvskill{MongoDB}{2}
+\cvskill{Redis}{1}
+
+\cvskill{Docker}{2}
+\cvskill{Firebase}{2}
+\cvskill{AWS}{2}
+
+\begin{comment}
+    
+\cvskill{Dart}{1}
+\cvskill{Flutter}{1}
+\cvskill{Python}{1}
+\cvskill{PHP}{1}
+\cvskill{HTML}{2}
+\cvskill{CSS}{2}
+\cvskill{C}{1}
+\cvskill{Scala}{1}
+\cvskill{Prolog}{1}
+\cvskill{XML}{1}
+\cvskill{Arduino}{2}
+\cvskill{LaTeX}{1}
+
+\end{comment}
+
+\cvsection{Idiomas}
+
+\cvskill{Español}{5}
+
+\cvskill{Inglés}{3}
+
+\end{paracol}
+
+\cvsection{Actividades extracurriculares}
+
+\begin{paracol}{2}
+
+\cvevent{Coordinador SEUPB}{Sociedad de Estudiantes de la Universidad Privada Boliviana}{Febrero 2020 -- En curso}{La Paz, BOLIVIA}
+Coordinador de la secretaria de tecnología e innovación
+
+\switchcolumn
+
+\cvevent{Miembro del equipo técnico de ABASC}{All Bolivian Asteroid Search Collaboration}{Noviembre 2019 -- En curso}{La Paz, BOLIVIA}
+Miembro del equipo técnico de ABASC, un proyecto nacional de difusión científica
+
+\end{paracol}
+
+\end{document}
